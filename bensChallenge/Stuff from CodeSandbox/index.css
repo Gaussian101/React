@@ -1,0 +1,54 @@
+.App {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    text-align: center;
+  }
+  .banner {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+  }
+  .card {
+    width: 30vw;
+    height: 55vh;
+    border: solid grey;
+    display: flex;
+    flex-direction: column;
+  }
+  .img {
+    width: 30vw;
+    height: 25vh;
+    background-image: url("https://source.unsplash.com/random");
+  }
+  .information {
+    width: 90%;
+    padding-left: 5%;
+    text-align: left;
+  }
+  p {
+    margin: 0;
+  }
+  .stars {
+    padding-left: 5%;
+    padding-top: 5%;
+    margin: 0;
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .profile {
+    width: 100%;
+    padding: 2%;
+    display: flex;
+  }
+  .profilePicture {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-image: url("https://source.unsplash.com/random");
+    margin: 4%;
+  }
+  .nameLocation {
+    margin: 4%;
+    text-align: left;
+  }
+  
